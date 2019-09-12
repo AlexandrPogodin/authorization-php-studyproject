@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['secure']='1';
+$_SESSION['secure'] = '1';
 ?>
 <!DOCTYPE html>
 <html>
@@ -36,8 +36,8 @@ $_SESSION['secure']='1';
     </section>
 
     <div>
-        <?php include('includes/footer.php'); ?>
-    </div>    
+        <?php include 'includes/footer.php';?>
+    </div>
 </body>
 
 </html>

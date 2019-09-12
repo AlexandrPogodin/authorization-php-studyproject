@@ -1,5 +1,5 @@
 <?php
-    if($_COOKIE['login'] == ''){header('location:login.php');die;}
+if ($_COOKIE['login'] == '') {header('location:login.php');die;}
 ?>
 <!DOCTYPE html>
 <html>
@@ -30,7 +30,7 @@
     <div class="container is-fluid">
         <div class="section">
             <p class="is-size-5">
-                    <?php echo 'Вы вошли как ' . $_COOKIE['login'];?>
+                    <?php echo 'Вы вошли как ' . $_COOKIE['login']; ?>
                 </p><br>
                 <form action="exit.php" method="POST">
                     <input class="button is-danger is-outlined" type="submit" value="Выйти">
@@ -72,7 +72,7 @@
     </div>
     <br><br>
     <div>
-        <?php include('includes/footer.php'); ?>
+        <?php include 'includes/footer.php';?>
     </div>
 </body>
 
